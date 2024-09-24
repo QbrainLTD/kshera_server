@@ -2,9 +2,9 @@ const cors = require("cors");
 
 const corsMiddleware = cors({
   origin: [
-    "http://127.0.0.1:5500",
-    "http://localhost:5500",
-    "http://localhost:3000",
+    "http://3.75.158.163",
+    "http://3.125.183.140",
+    "http://35.157.117.28",
     "http://localhost:5173",
   ],
 });
