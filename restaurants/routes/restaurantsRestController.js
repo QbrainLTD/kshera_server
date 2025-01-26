@@ -21,7 +21,7 @@ router.post("/", auth, async (req, res) => {
       return handleError(res, 403, "Only business user can create new restaurant");
     }
 
-    const errorMessage = validaterestaurant(req.body);
+    const errorMessage = validateRestaurant(req.body);
     if (errorMessage !== "") {
       return handleError(res, 400, "Validation error: " + errorMessage);
     }

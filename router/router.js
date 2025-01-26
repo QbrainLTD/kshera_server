@@ -5,7 +5,7 @@ const { handleError } = require("../utils/handleErrors");
 
 const router = express.Router();
 
-router.use("/restaurants", restaurantsRouterController);
+router.use("/restaurant", restaurantsRouterController);
 router.use("/users", usersRouterController);
 
 router.use((req, res) => {

@@ -8,7 +8,7 @@ const { handleError } = require("./utils/handleErrors");
 const loggerMiddleware = require("./logger/loggerService");
 
 const app = express();
-const PORT = process.env.PORT || 27017;
+const PORT = process.env.PORT || 5000;
 
 app.use(corsMiddleware);
 app.use(express.json());
