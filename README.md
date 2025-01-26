@@ -1,9 +1,9 @@
 Writer: idan Arbeli | 0504050514
 ---
 
-# Business Card Backend API
+# Business restaurant Backend API
 
-This repository contains the backend server for the Business Card site, developed to provide the necessary API endpoints for user management and business card creation. It’s built using Node.js and Express, with various middleware and libraries to ensure security, validation, and performance.
+This repository contains the backend server for the Business restaurant site, developed to provide the necessary API endpoints for user management and business restaurant creation. It’s built using Node.js and Express, with various middleware and libraries to ensure security, validation, and performance.
 
 ### Writer: Idan Arbeli
 
@@ -11,7 +11,7 @@ This repository contains the backend server for the Business Card site, develope
 
 ## Project Overview
 
-The Business Card Backend API serves as the backend of a business card management web application. This API allows users to create accounts, manage their profiles, and add business cards. It interacts with a MongoDB database and is built with robust security and validation mechanisms.
+The Business restaurant Backend API serves as the backend of a business restaurant management web application. This API allows users to create accounts, manage their profiles, and add business restaurants. It interacts with a MongoDB database and is built with robust security and validation mechanisms.
 
 ## Features and Technologies Used
 
@@ -22,7 +22,7 @@ This project leverages several Node.js packages and middleware to provide a comp
    - **express.Router()** is used to separate routes within the `router` folder, making the application modular and easy to maintain.
 
 ### 2. **CORS**
-   - Cross-Origin Resource Sharing (CORS) is enabled to allow requests from different domains, such as from the frontend of the business card site.
+   - Cross-Origin Resource Sharing (CORS) is enabled to allow requests from different domains, such as from the frontend of the business restaurant site.
 
 ### 3. **Environment Variables (.env)**
    - Sensitive information, like database URIs and JWT secret keys, is stored in environment variables using the `.env` file for secure and configurable management of these values.
@@ -40,7 +40,7 @@ This project leverages several Node.js packages and middleware to provide a comp
    - **Morgan** is used to log HTTP requests, providing insight into server activity and assisting with debugging. Logging functions are organized in the `logger` folder.
 
 ### 8. **MongoDB**
-   - MongoDB serves as the database for storing user profiles and business card information.
+   - MongoDB serves as the database for storing user profiles and business restaurant information.
    - Mongoose is used for object modeling, making it easy to interact with MongoDB collections and documents. Database configurations are located in the `DB` and `config` folders.
 
 ### 9. **Custom Middlewares**
@@ -56,7 +56,7 @@ This project leverages several Node.js packages and middleware to provide a comp
 ```
 ├── DB
 ├── auth
-├── cards
+├── restaurants
 ├── config
 ├── helpers
 ├── logger
@@ -75,13 +75,13 @@ This project leverages several Node.js packages and middleware to provide a comp
 ### Folder Explanations:
 - **DB**: Contains database connection and configurations.
 - **auth**: Manages user authentication and JWT token handling.
-- **cards**: Handles business card-related operations.
+- **restaurants**: Handles business restaurant-related operations.
 - **config**: Stores environment configurations and settings.
 - **helpers**: Contains helper functions for various utilities.
 - **logger**: Configures and manages request logging.
 - **middlewares**: Holds middleware functions for authentication, validation, etc.
 - **public**: Static files served by the backend.
-- **router**: Defines routes for user and business card actions.
+- **router**: Defines routes for user and business restaurant actions.
 - **users**: Manages user-related functionality.
 - **utils**: Utility scripts for common functionalities across the project.
 
@@ -93,11 +93,11 @@ This project leverages several Node.js packages and middleware to provide a comp
 - **POST /register**: Register a new user.
 - **POST /login**: Authenticate user and return a JWT token.
 
-### Business Card Management
-- **POST /cards**: Create a new business card.
-- **GET /cards**: Retrieve all business cards for the authenticated user.
-- **PUT /cards/:id**: Update an existing business card.
-- **DELETE /cards/:id**: Delete a business card.
+### Business restaurant Management
+- **POST /restaurants**: Create a new business restaurant.
+- **GET /restaurants**: Retrieve all business restaurants for the authenticated user.
+- **PUT /restaurants/:id**: Update an existing business restaurant.
+- **DELETE /restaurants/:id**: Delete a business restaurant.
 
 ---
 

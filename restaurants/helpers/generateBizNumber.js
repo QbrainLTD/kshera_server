@@ -1,12 +1,12 @@
 const _ = require("lodash");
-const Card = require("../models/mongodb/Card");
+const restaurant = require("../models/mongodb/Restaurant");
 const { createError } = require("../../utils/handleErrors");
 
 const generateBizNumber = async () => {
-  let cardsCount = await Card.countDocuments();
-  if (cardsCount === 9_000_000) {
+  let restaurantsCount = await restaurant.countDocuments();
+  if (restaurantsCount === 9_000_000) {
     const error = new Error(
-      "You reached to the maximum cards count in your system"
+      "You reached to the maximum restaurants count in your system"
     );
     error.status = 409;
     return createError("Mogoose", error);
@@ -21,8 +21,8 @@ const generateBizNumber = async () => {
 
 const isBizNumberExists = async (bizNumber) => {
   try {
-    const cardWithThisBizNumber = await Card.findOne({ bizNumber });
-    return Boolean(cardWithThisBizNumber);
+    const restaurantWithThisBizNumber = await restaurant.findOne({ bizNumber });
+    return Boolean(restaurantWithThisBizNumber);
   } catch (error) {
     error.status = 500;
     return createError("Mogoose", error);

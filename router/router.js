@@ -1,11 +1,11 @@
 const express = require("express");
-const cardsRouterController = require("../cards/routes/cardsRestController");
+const restaurantsRouterController = require("../restaurants/routes/restaurantsRestController");
 const usersRouterController = require("../users/routes/usersRestController");
 const { handleError } = require("../utils/handleErrors");
 
 const router = express.Router();
 
-router.use("/cards", cardsRouterController);
+router.use("/restaurants", restaurantsRouterController);
 router.use("/users", usersRouterController);
 
 router.use((req, res) => {
