@@ -1,49 +1,30 @@
 const Joi = require("joi");
 
-const validateRestaurantWithJoi = (restaurant) => {
-  const urlRegex =
-    /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/;
+const urlRegex =
+  /(https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|www\.[a-zA-Z0-9][a-zA-Z0-9-]+[a-zA-Z0-9]\.[^\s]{2,}|https?:\/\/(?:www\.|(?!www))[a-zA-Z0-9]+\.[^\s]{2,}|www\.[a-zA-Z0-9]+\.[^\s]{2,})/;
 
+const timeRegex = /^([0-1]?[0-9]|2[0-3]):[0-5][0-9]$/; // Validate HH:MM format
+
+const validateRestaurantWithJoi = (restaurant) => {
   const schema = Joi.object({
-    title: Joi.string().min(2).max(256).required(),
-    subtitle: Joi.string().min(2).max(256).required(),
+    name: Joi.string().min(2).max(256).required(),
+    country: Joi.string().min(2).max(256).required(),
+    city: Joi.string().min(2).max(256).required(),
+    street: Joi.string().min(2).max(256).required(),
+    rating: Joi.number().min(0).max(10),
+    status: Joi.string().valid("פתוח", "סגור"),
+    kosher: Joi.boolean(),
+    tags: Joi.array().items(Joi.string().min(2).max(50)),
     description: Joi.string().min(2).max(1024).required(),
-    phone: Joi.string()
-      .ruleset.regex(/0[0-9]{1,2}\-?\s?[0-9]{3}\s?[0-9]{4}/)
-      .rule({ message: 'restaurant "phone" mast be a valid phone number' })
-      .required(),
-    email: Joi.string()
-      .ruleset.pattern(
-        /^([a-zA-Z0-9_\-\.]+)@([a-zA-Z0-9_\-\.]+)\.([a-zA-Z]{2,5})$/
-      )
-      .rule({ message: 'restaurant "mail" mast be a valid mail' })
-      .required(),
-    web: Joi.string()
-      .ruleset.regex(urlRegex)
-      .rule({ message: 'restaurant "web" mast be a valid url' })
-      .allow(""),
-    image: Joi.object()
-      .keys({
-        url: Joi.string()
-          .ruleset.regex(urlRegex)
-          .rule({ message: 'restaurant.image "url" mast be a valid url' })
-          .allow(""),
-        alt: Joi.string().min(2).max(256).allow(""),
-      })
-      .required(),
-    address: Joi.object()
-      .keys({
-        state: Joi.string().allow(""),
-        country: Joi.string().required(),
-        city: Joi.string().required(),
-        street: Joi.string().required(),
-        houseNumber: Joi.number().required(),
-        zip: Joi.number(),
-      })
-      .required(),
+    imageUrl: Joi.string().regex(urlRegex).message('restaurant "imageUrl" must be a valid URL').required(),
+    openingHours: Joi.object({
+      from: Joi.string().pattern(timeRegex).required().messages({ "string.pattern.base": "Opening time must be in HH:MM format" }),
+      to: Joi.string().pattern(timeRegex).required().messages({ "string.pattern.base": "Closing time must be in HH:MM format" }),
+    }).required(),
   });
 
   return schema.validate(restaurant);
 };
 
 module.exports = validateRestaurantWithJoi;
+

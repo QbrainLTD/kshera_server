@@ -1,6 +1,6 @@
 const { createError } = require("../../utils/handleErrors");
 const restaurant = require("./mongodb/Restaurant");
-
+const checkRestaurantStatus = require("../helpers/checkRestaurantStatus");
 const config = require("config");
 const DB = config.get("DB");
 
@@ -20,12 +20,12 @@ const createRestaurant = async (newRestaurant) => {
 };
 
 const getRestaurants = async () => {
-  try {
-    let restaurants = await restaurant.find();
-    return restaurants;
-  } catch (error) {
-    return createError("Mongoose", error);
-  }
+  let restaurants = await restaurant.find(); // Fetch all restaurants from DB
+  restaurants = restaurants.map((restaurant) => ({
+    ...restaurant.toObject(),
+    status: checkRestaurantStatus(restaurant), // Update status dynamically
+  }));
+  return restaurants;
 };
 
 const getRestaurant = async (restaurantId) => {

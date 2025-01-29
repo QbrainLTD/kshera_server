@@ -7,33 +7,39 @@ const {
   updateRestaurant,
   deleteRestaurant,
   likeRestaurant,
-} = require("../models/restaurantsAccessDataService");
-const auth = require("../../auth/authService");
-const { normalizeRestaurant } = require("../helpers/normalizeRestaurant");
-const { handleError } = require("../../utils/handleErrors");
-const validateRestaurant = require("../validation/restaurantValidationService");
+} = require("../models/restaurantsAccessDataService"); // ✅ Ensure this file exists
+
+const Restaurant = require("../models/mongodb/Restaurant"); // ✅ Ensure this file exists
+const auth = require("../../auth/authService"); // ✅ Ensure correct path
+const { normalizeRestaurant } = require("../helpers/normalizeRestaurant"); // ✅ Ensure this file exists
+const { handleError } = require("../../utils/handleErrors"); // ✅ Ensure correct path
+const validateRestaurant = require("../validation/restaurantValidationService"); // ✅ Ensure correct path
+
 const router = express.Router();
 
-router.post("/", auth, async (req, res) => {
+
+router.post("/", async (req, res) => {
   try {
-    const userInfo = req.user;
-    if (!userInfo.isBusiness) {
-      return handleError(res, 403, "Only business user can create new restaurant");
+    const { error } = validateRestaurant(req.body);
+    if (error) {
+      return res.status(400).json({ message: `Validation error: ${error.details[0].message}` });
     }
 
-    const errorMessage = validateRestaurant(req.body);
-    if (errorMessage !== "") {
-      return handleError(res, 400, "Validation error: " + errorMessage);
+    if (!req.user?._id) {
+      return res.status(401).json({ message: "Unauthorized: User ID is missing" });
     }
 
-    let restaurant = await normalizeRestaurant(req.body, userInfo._id);
-    restaurant = await createRestaurant(restaurant);
-    res.status(201).send(restaurant);
-  } catch (error) {
-    handleError(res, error.status || 400, error.message);
+    const normalizedRestaurant = normalizeRestaurant(req.body);
+    const newRestaurant = new Restaurant(normalizedRestaurant);
+    await newRestaurant.save();
+
+    res.status(201).json(newRestaurant);
+  } catch (err) {
+    res.status(500).json({ message: `Server error: ${err.message}` });
   }
 });
 
+// ✅ Other routes remain unchanged
 router.get("/", async (req, res) => {
   try {
     let restaurants = await getRestaurants();
@@ -69,7 +75,7 @@ router.get("/:id", async (req, res) => {
 router.put("/:id", auth, async (req, res) => {
   try {
     const userInfo = req.user;
-    const newrestaurant = req.body;
+    const newRestaurant = req.body;
     const { id } = req.params;
     const fullrestaurantFromDb = await getRestaurant(id);
     if (
@@ -83,12 +89,12 @@ router.put("/:id", auth, async (req, res) => {
       );
     }
 
-    const errorMessage = validateRestaurant(newrestaurant);
+    const errorMessage = validateRestaurant(newRestaurant);
     if (errorMessage !== "") {
       return handleError(res, 400, "Validation error: " + errorMessage);
     }
 
-    let restaurant = await normalizeRestaurant(newrestaurant, userInfo._id);
+    let restaurant = await normalizeRestaurant(newRestaurant, userInfo._id);
     restaurant = await updateRestaurant(id, restaurant);
     res.send(restaurant);
   } catch (error) {
