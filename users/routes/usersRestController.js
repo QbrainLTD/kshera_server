@@ -11,6 +11,9 @@ const {
   validateRegistration,
   validateLogin,
 } = require("../validation/userValidationService");
+const User = require("../models/mongodb/User");
+const Restaurant = require("../../restaurants/models/mongodb/Restaurant");
+const mongoose = require("mongoose"); // ✅ Add this line
 
 const router = express.Router();
 
@@ -67,5 +70,59 @@ router.get("/", async (req, res) => {
     return handleError(res, error.status || 400, error.message);
   }
 });
+
+// ✅ Reserve a restaurant for a user
+router.post("/:userId/reserve", auth, async (req, res) => {
+  try {
+    const { userId } = req.params;
+    const { restaurantId } = req.body;
+
+    if (req.user._id.toString() !== userId.toString() && !req.user.isAdmin) {
+      return res.status(403).json({ message: "Unauthorized: You can only reserve for yourself" });
+    }
+
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).json({ message: "User not found" });
+
+    const restaurant = await Restaurant.findById(restaurantId);
+    if (!restaurant) return res.status(404).json({ message: "Restaurant not found" });
+
+    // ✅ Prevent duplicate reservations
+    if (user.reservations.includes(restaurantId)) {
+      return res.status(400).json({ message: "You already have a reservation at this restaurant" });
+    }
+
+    // ✅ Add reservation
+    user.reservations.push(restaurantId);
+    await user.save();
+
+    res.json({ message: "Reservation saved successfully", newReservation: restaurant });
+  } catch (error) {
+    res.status(500).json({ message: "Error saving reservation", error: error.message });
+  }
+});
+
+
+
+// ✅ Get user reservations
+router.get("/:userId/reservations", auth, async (req, res) => {
+  try {
+    const { userId } = req.params;
+
+    if (req.user._id.toString() !== userId.toString() && !req.user.isAdmin) {
+      return res.status(403).json({ message: "Unauthorized: You can only view your own reservations" });
+    }
+
+    const user = await User.findById(userId).populate("reservations");
+    if (!user) return res.status(404).json({ message: "User not found" });
+
+    res.json(user.reservations);
+  } catch (error) {
+    res.status(500).json({ message: "Error fetching reservations", error: error.message });
+  }
+});
+
+
+
 
 module.exports = router;

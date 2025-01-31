@@ -19,7 +19,7 @@ const validateRestaurant = require("../validation/restaurantValidationService");
 const router = express.Router();
 
 
-// ✅ Create a new restaurant
+
 router.post("/", auth, async (req, res) => {
   try {
     if (!req.user?._id) {
@@ -42,7 +42,7 @@ router.post("/", auth, async (req, res) => {
 });
 
 
-// ✅ Get all restaurants
+
 router.get("/", async (req, res) => {
   try {
     const restaurants = await getRestaurants();
@@ -52,7 +52,7 @@ router.get("/", async (req, res) => {
   }
 });
 
-// ✅ Get my restaurants (Only for business users)
+
 router.get("/my-restaurants", auth, async (req, res) => {
   try {
     const userInfo = req.user;
@@ -150,50 +150,5 @@ router.patch("/:id/like", auth, async (req, res) => {
 });
 
 
-// ✅ Reserve a table at a restaurant
-router.post("/:restaurantId/reserve", auth, async (req, res) => {
-  try {
-    const { restaurantId } = req.params;
-    const userId = req.user._id; // Get user ID from authentication
-
-    const restaurant = await Restaurant.findById(restaurantId);
-    if (!restaurant) return res.status(404).json({ message: "Restaurant not found" });
-
-    // ✅ Check if user already reserved
-    const existingReservation = restaurant.reservations.find((r) => r.user.toString() === userId.toString());
-    if (existingReservation) {
-      return res.status(400).json({ message: "You already have a reservation at this restaurant" });
-    }
-
-    // ✅ Add reservation to the restaurant
-    restaurant.reservations.push({ user: userId, date: new Date() });
-    await restaurant.save();
-
-    res.json({ message: "Reservation saved successfully", restaurant });
-  } catch (error) {
-    res.status(500).json({ message: "Error saving reservation", error: error.message });
-  }
-});
-
-
-
-
-// ✅ Get user reservations
-router.get("/:userId/reservations", auth, async (req, res) => {
-  try {
-    const { userId } = req.params;
-
-    if (req.user._id !== userId && !req.user.isAdmin) {
-      return res.status(403).json({ message: "Unauthorized: You can only view your own reservations" });
-    }
-
-    const user = await User.findById(userId).populate("reservations");
-    if (!user) return res.status(404).json({ message: "User not found" });
-
-    res.json(user.reservations);
-  } catch (error) {
-    res.status(500).json({ message: "Error fetching reservations", error: error.message });
-  }
-});
 
 module.exports = router;
