@@ -5,8 +5,14 @@ const { handleError } = require("../utils/handleErrors");
 
 const router = express.Router();
 
+
 router.use("/restaurant", restaurantsRouterController);
+
+
+router.use("/api/restaurants", restaurantsRouterController);
+
 router.use("/users", usersRouterController);
+
 
 router.use((req, res) => {
   return handleError(res, 404, "Path not found");
