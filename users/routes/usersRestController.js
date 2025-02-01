@@ -102,6 +102,37 @@ router.post("/:userId/reserve", auth, async (req, res) => {
   }
 });
 
+// ✅ Cancel (Remove) a reservation
+router.delete("/:userId/reservations/:restaurantId", auth, async (req, res) => {
+  try {
+    const { userId, restaurantId } = req.params;
+
+    if (req.user._id.toString() !== userId.toString() && !req.user.isAdmin) {
+      return res.status(403).json({ message: "Unauthorized: You can only cancel your own reservations" });
+    }
+
+    // ✅ Find the user
+    const user = await User.findById(userId);
+    if (!user) return res.status(404).json({ message: "User not found" });
+
+    // ✅ Check if the reservation exists
+    if (!user.reservations.includes(restaurantId)) {
+      return res.status(404).json({ message: "Reservation not found" });
+    }
+
+    // ✅ Remove the reservation
+    user.reservations = user.reservations.filter(id => id.toString() !== restaurantId);
+    await user.save();
+
+    res.json({ message: "Reservation canceled successfully", user });
+  } catch (error) {
+    res.status(500).json({ message: "Error canceling reservation", error: error.message });
+  }
+});
+
+
+
+
 
 
 // ✅ Get user reservations
@@ -121,6 +152,37 @@ router.get("/:userId/reservations", auth, async (req, res) => {
     res.status(500).json({ message: "Error fetching reservations", error: error.message });
   }
 });
+
+router.put("/:id", auth, async (req, res) => {
+  try {
+    const userId = req.params.id;
+
+    if (req.user._id.toString() !== userId.toString() && !req.user.isAdmin) {
+      return res.status(403).json({ message: "Unauthorized: You can only update your own profile." });
+    }
+
+    const existingUser = await User.findById(userId);
+    if (!existingUser) {
+      return res.status(404).json({ message: "User not found" });
+    }
+
+    // 🟢 Merge address & name objects with existing values
+    const updatedUser = {
+      ...existingUser._doc,  // Keep existing user data
+      ...req.body,           // Merge with new updates
+      name: { ...existingUser.name, ...req.body.name },  // Merge name fields
+      address: { ...existingUser.address, ...req.body.address }, // Merge address fields
+    };
+
+    const savedUser = await User.findByIdAndUpdate(userId, updatedUser, { new: true });
+
+    res.json(savedUser);
+  } catch (error) {
+    console.error("❌ Error updating user:", error);
+    res.status(500).json({ message: "Server error updating user", error: error.message });
+  }
+});
+
 
 
 

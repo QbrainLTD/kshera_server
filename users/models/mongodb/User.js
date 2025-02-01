@@ -17,7 +17,7 @@ const schema = new mongoose.Schema({
   address: Address,
   isAdmin: { type: Boolean, default: false },
   isBusiness: { type: Boolean, default: false },
-  reservations: [{ type: mongoose.Schema.Types.ObjectId, ref: "Restaurant" }], // ✅ Fix here
+  reservations: [{ type: mongoose.Schema.Types.ObjectId, ref: "Restaurant" }], // ✅ Ensure reservations exist
   createdAt: {
     type: Date,
     default: Date.now,
