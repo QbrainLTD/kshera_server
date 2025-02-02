@@ -161,21 +161,39 @@ router.put("/:id", auth, async (req, res) => {
       return res.status(403).json({ message: "Unauthorized: You can only update your own profile." });
     }
 
-    const existingUser = await User.findById(userId);
+    let existingUser = await User.findById(userId);
     if (!existingUser) {
       return res.status(404).json({ message: "User not found" });
     }
 
-    // 🟢 Merge address & name objects with existing values
+    // 🟢 Merge updates correctly
     const updatedUser = {
-      ...existingUser._doc,  // Keep existing user data
-      ...req.body,           // Merge with new updates
-      name: { ...existingUser.name, ...req.body.name },  // Merge name fields
-      address: { ...existingUser.address, ...req.body.address }, // Merge address fields
+      ...existingUser._doc,
+      name: {
+        first: req.body.name?.first || existingUser.name.first,
+        middle: req.body.name?.middle || existingUser.name.middle,
+        last: req.body.name?.last || existingUser.name.last,
+      },
+      address: {
+        state: req.body.address?.state || existingUser.address.state,
+        country: req.body.address?.country || existingUser.address.country,
+        city: req.body.address?.city || existingUser.address.city,
+        street: req.body.address?.street || existingUser.address.street,
+        houseNumber: req.body.address?.houseNumber || existingUser.address.houseNumber,
+        zip: req.body.address?.zip || existingUser.address.zip,
+      },
+      phone: req.body.phone || existingUser.phone,
+      email: req.body.email || existingUser.email,
+      isBusiness: req.body.isBusiness ?? existingUser.isBusiness,
+      image: {
+        url: req.body.image?.url || existingUser.image.url,
+        alt: req.body.image?.alt || existingUser.image.alt,
+      },
     };
 
     const savedUser = await User.findByIdAndUpdate(userId, updatedUser, { new: true });
 
+    console.log("✅ User updated successfully:", savedUser);
     res.json(savedUser);
   } catch (error) {
     console.error("❌ Error updating user:", error);
