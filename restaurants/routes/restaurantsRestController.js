@@ -136,18 +136,30 @@ router.delete("/:id", auth, async (req, res) => {
   }
 });
 
-// ✅ Like a restaurant
 router.patch("/:id/like", auth, async (req, res) => {
   try {
-    const { id } = req.params;
-    const userId = req.user._id;
+    const { id } = req.params; // ✅ Get restaurant ID
+    const userId = req.user._id; // ✅ Get authenticated user ID
 
-    const restaurant = await likeRestaurant(id, userId);
-    res.send(restaurant);
+    if (!userId) {
+      return res.status(400).json({ message: "User ID is missing from the request" });
+    }
+
+    console.log("🔵 Like request received:", { restaurantId: id, userId });
+
+    let updatedRestaurant = await likeRestaurant(id, userId);
+    res.json(updatedRestaurant); // ✅ Return updated restaurant
   } catch (error) {
-    handleError(res, error.status || 400, error.message);
+    console.error("❌ Server error updating like status:", error);
+    res.status(500).json({ message: "Error updating like status", error: error.message });
   }
 });
+
+
+
+
+
+
 
 
 

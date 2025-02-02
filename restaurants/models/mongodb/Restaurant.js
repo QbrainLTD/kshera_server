@@ -18,12 +18,17 @@ const restaurantSchema = new mongoose.Schema({
   },
   user_id: { type: mongoose.Schema.Types.ObjectId, required: true, ref: "User" },
 
-  // ✅ Add Reservations Field
+  // ✅ Fixed Reservations
   reservations: [
     {
       user: { type: mongoose.Schema.Types.ObjectId, ref: "User" },
       date: { type: Date, default: Date.now },
     },
+  ],
+
+  // ✅ Likes (Now correctly formatted)
+  likes: [
+    { type: mongoose.Schema.Types.ObjectId, ref: "User" }
   ],
 });
 
@@ -32,10 +37,11 @@ restaurantSchema.set("toJSON", {
   virtuals: true,
   transform: function (doc, ret) {
     ret.id = ret._id;
-    delete ret._id;
+    ret._id = ret._id.toString(); // ✅ Convert `_id` to a string
     delete ret.__v;
   },
 });
+
 
 // ✅ Update Status Before Saving
 restaurantSchema.pre("save", function (next) {

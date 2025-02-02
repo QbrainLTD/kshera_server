@@ -87,20 +87,26 @@ router.post("/:userId/reserve", auth, async (req, res) => {
     const restaurant = await Restaurant.findById(restaurantId);
     if (!restaurant) return res.status(404).json({ message: "Restaurant not found" });
 
-    // ✅ Prevent duplicate reservations
+    // Prevent duplicate reservations
     if (user.reservations.includes(restaurantId)) {
       return res.status(400).json({ message: "You already have a reservation at this restaurant" });
     }
 
-    // ✅ Add reservation
+    // Add reservation
     user.reservations.push(restaurantId);
     await user.save();
 
-    res.json({ message: "Reservation saved successfully", newReservation: restaurant });
+    // ✅ Return the **updated user object**, not just a message
+    return res.json({
+      message: "Reservation saved successfully",
+      user
+    });
+
   } catch (error) {
     res.status(500).json({ message: "Error saving reservation", error: error.message });
   }
 });
+
 
 // ✅ Cancel (Remove) a reservation
 router.delete("/:userId/reservations/:restaurantId", auth, async (req, res) => {
@@ -129,10 +135,6 @@ router.delete("/:userId/reservations/:restaurantId", auth, async (req, res) => {
     res.status(500).json({ message: "Error canceling reservation", error: error.message });
   }
 });
-
-
-
-
 
 
 // ✅ Get user reservations
@@ -200,6 +202,29 @@ router.put("/:id", auth, async (req, res) => {
     res.status(500).json({ message: "Server error updating user", error: error.message });
   }
 });
+
+
+router.get("/:userId/favorites", auth, async (req, res) => {
+  try {
+    const { userId } = req.params;
+
+    if (!req.user._id || req.user._id.toString() !== userId) {
+      return res.status(403).json({ message: "Unauthorized access." });
+    }
+
+    // ✅ Fetch all restaurants liked by the user
+    const favoriteRestaurants = await Restaurant.find({ likes: userId });
+
+    res.json(favoriteRestaurants);
+  } catch (error) {
+    console.error("❌ Error fetching favorite restaurants:", error);
+    res.status(500).json({ message: "Error fetching favorite restaurants", error: error.message });
+  }
+});
+
+
+
+
 
 
 
