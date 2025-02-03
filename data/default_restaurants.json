@@ -196,8 +196,7 @@
         "user_id": "64a97b5e2b7f4f001f1c3a92",
         "reservations": [],
         "likes": []
-    }
-,
+    },
     {
         "name": "Miznon Kosher",
         "country": "ארצות הברית",
@@ -211,11 +210,13 @@
         ],
         "description": "מסעדה כשרה Miznon Kosher ב-ניו יורק",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbm5sSTBIZ_L7w6d_Z6KBixjiCbQzBwQe10Ykuk6lxo05t0auy8UaWeKjNd3wESYUzju3h5s2akP5HO8_ssC5dhebqyZkEvXCEo_b019NPRKTzRwj6u422RlI_b_uS8xnVatHHJSFcw39zBCZW-1WkxLdTWv0uN57g6Hz03xrenpVL-O&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Kosher In Midtown",
@@ -230,11 +231,13 @@
         ],
         "description": "מסעדה כשרה Kosher In Midtown ב-ניו יורק",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbl_k3dXVj5ozsDepMZLPLRBLG-vA2ImhKoPVOdpooDTsixcKMLAHKyZReV_RE6-f_a5ZsIHwqpYdbot_EQAz3wzMGwcW2KhfvDtKKkncM-57kP9A_xvlmlNJKnwKaKlF5o5eU-o28RyaJjme9l3UJsJ2qC09chgBxl3Ijm1xh_05KVY&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Pita Grill (ou kosher)",
@@ -250,11 +253,13 @@
         ],
         "description": "מסעדה כשרה Pita Grill (ou kosher) ב-ניו יורק",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnEvrjptaRk88IcFEJRt4hb8C-2NcDLekwICSk1tgt4Q-Ix3CnX49FdCGmxruJB9xDd_7pASW9Gyvtoag3sOPo_zmdKOy_mRzJ8Z0WRcFKvPE5Ojw1TZxjApmLNp70q-dCtn_BkAdmx4NTxqYjyYhKVFlgkm5eCWhgYsU-jwG16crfl&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "פיצה קינגסטון כשר",
@@ -272,11 +277,13 @@
         ],
         "description": "מסעדה כשרה פיצה קינגסטון כשר ב-ניו יורק",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdblgDL8_yDbZ7GWj9VA2oZWTVUvMjhr0Pb--NkMk1Hc188lX81Gm66gBFBf16HQEL0Ii8FfFBiv77BycUNgbssozIVAFuX---hIFYqoAvvsTg7sae9Vo3DIzM-MrirRBp6pbjf3QB1SmrbmRhX2Eadq9ilR-ZFz9Mxqqh8MVm-saVSby&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Abaita - Kosher Dairy",
@@ -292,11 +299,13 @@
         ],
         "description": "מסעדה כשרה Abaita - Kosher Dairy ב-ניו יורק",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmr-kXE6z2dAoSYimYQK9mgANsbP8dpUOEvz5aBrn4Fz8Ni3LpKc47jpijnnhtowBIHim4mdSbaNBqKxnjVsEeBNIEG1lrv7TfU8fDdMh-Vl1LFC4WeiIQdO-yRK-6fprDOw53iSOQWb4M9NRh1My-e-7jFFoG5laPLoI45IXfiUfnf&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Shalom Pizza - The Best Kosher Pizza in Los Angeles",
@@ -312,11 +321,13 @@
         ],
         "description": "מסעדה כשרה Shalom Pizza - The Best Kosher Pizza in Los Angeles ב-לוס אנג'לס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbn_UaasIBJV-oS9InEKWAcpiDd4yZ9QIwQYfii-CgTiLygLnMr362zMxPkrHSfBFFMAMgBpJf-Z32NBECN7_I6grVAh8qS8XDvcLvCBNA3krmqV2mAdbXYmGLf510q2iAuMDvcYHlmYH-84rUliPJsE_DPueAy6oxNuhO6pLC6gdIqQ&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Al-Ha-Esh Kosher Grill",
@@ -332,11 +343,13 @@
         ],
         "description": "מסעדה כשרה Al-Ha-Esh Kosher Grill ב-לוס אנג'לס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbk1uE-BbCGHYwCjcSPFSoTqJFXjbGvy-DSBb1Iks1Y8OpLS69U0C2acbUKlFQpZnAAIkQIzxvt9dcUXG2-YlsbHKw0qEmLyLrfl38x8w4VTy2elDVFy_U3X3eImsbgIspXNokcnUc59Qk2j8RwoHlhfNt8Q_TtFCAF-yIU8blTrHBp5&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Kosher Pizza Station",
@@ -354,11 +367,13 @@
         ],
         "description": "מסעדה כשרה Kosher Pizza Station ב-לוס אנג'לס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbndgKh8WD64wyZDW2RazBouOn1WtcjN6pfCIwq-LfHf9dGMpEFaxKYVDksaiY3kBrEzJb9YV8OP2c_tjPN4375-SXZrbSSoRrhiNw6MGznvf0kgCPwh_DCia1hh-NRZHRBLWAAyAW7cmTm2jVIPV9ojk3IMWapP1zTxqqymli_qx-W8&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Pacific Kosher Restaurant",
@@ -373,11 +388,13 @@
         ],
         "description": "מסעדה כשרה Pacific Kosher Restaurant ב-לוס אנג'לס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnLud9Z_L4vmqpg21Qj_GkPHRDR5wrCqTuaqEGu9IDGINLDMxRtY3J_Gf-EznaS6UgCjOesrniXQe0FAwpMd7N1CHbZAg62go8VE7wGoOId7tcPwdoCBc756YP-2Ckr5QyqkGfTdvRtDd-pjGbw3eXt0up2rcZolswq_zRfHyElTEE&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Brami's Kosher Pizza",
@@ -393,11 +410,13 @@
         ],
         "description": "מסעדה כשרה Brami's Kosher Pizza ב-לוס אנג'לס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmygx8MoZg_alAkkKFnDlQ1lIHQLq2XKJlgx_oHz92neRvzih8F_Xa3mC0LtmL4zB1vXsogyY8NZyjcK1NSMuT5HHKF__dxtEGZHUrgEm5Eat4Um4PkG0vxN7QgnY4spmFEjDSoRM6HXzk6OvUMudjEVS2iZVktU2k-PKokqyr28J_p&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Nosh House by OC Kosher",
@@ -413,11 +432,13 @@
         ],
         "description": "מסעדה כשרה Nosh House by OC Kosher ב-לוס אנג'לס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnRNKlks274weE2lL9O21dgbMZpNfhZ4oh_QIdW0imJQGtmKHiEmcX2MCTeu7l_K1dyiLuctr2v8cIz4A6qHopb0SR8Mk1d-gl6llcazTWxhpO3P0CofP0bxzrWmaZN2C8ZhvoRWKoVvcBLUiyHYwPger-8aGsNAmXN48T30HQI2Yi6&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "TzaBar Kosher Restaurant & Catering",
@@ -433,11 +454,13 @@
         ],
         "description": "מסעדה כשרה TzaBar Kosher Restaurant & Catering ב-לוס אנג'לס",
         "imageUrl": "https://example.com/default-image.jpg",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Tel-Aviv Kosher Pizza",
@@ -453,11 +476,13 @@
         ],
         "description": "מסעדה כשרה Tel-Aviv Kosher Pizza ב-שיקגו",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbkA2KBwf9qioQmvsXGRa4hDDwsBy2JORaE7brUGRo5_Nfx6z3kgAikv2s7HqibiQo9x7HH0u6grHmfHWErcqFFETSUZB8HABcRl2b80WFlIWrcbKnskQlSVWCiV7R8xDwshDkpHoOa3Qx1AM8WZ2FxIakbz6NFIAQBxn_LairlnJN_Z&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Parkside Kosher Restaurant",
@@ -472,11 +497,13 @@
         ],
         "description": "מסעדה כשרה Parkside Kosher Restaurant ב-לונדון",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbkrU3E9hXkx3EF89k6PPL_tM_4GlxUFo8oFfHXX91aLBgVrwcydwVlyRAUNjr7N0IpV31GCLc0KRlrTWZ9cI4kuD29_DTZVjxPKPFX05LpQWJDzrjObPDg5J7KNwJHm9-omclats5fNPEP8gbzAXlTfLhooWzcRDApxQsLJ4-xaRw9s&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "OLAM GRILLADES CACHER / עולם גריל כשר",
@@ -492,11 +519,13 @@
         ],
         "description": "מסעדה כשרה OLAM GRILLADES CACHER / עולם גריל כשר ב-פריז",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdblyXZfEiik9sMe6C_-aRH7lq9ohZK92jJ9e8du7gkuN1FGTJdC2UAKvnyJ0da6nHcGPz6Oc2okCHiPyMmIb-6ORzsESwzb6ukz-VJ5d6O4x-8EreE6GHYgPvIzx63JCcwQR1eWHtdweCtOjmWOpiqVZfYYsZDs3Um8axSFvZztGXF66&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Golcca kosher by Röttgen Fleisch קצביה ומסעדה כשרה",
@@ -512,11 +541,13 @@
         ],
         "description": "מסעדה כשרה Golcca kosher by Röttgen Fleisch קצביה ומסעדה כשרה ב-ברלין",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnLvp8qN02gP7hoJRTgyyrbkSF8cdKoGBjqRaKUFTEPjpJ6zJlqJ62KSoXUc3jsGigc3njppIyLoJSjqzuIicKdpsYJQw6Tjslen1lk2tfLdNgqSiafMLh1dDzJXfdvAPTFdBhhyhPtndp0vyiZlFLGwtwzbLLSXnCyqRQs6fmlrK0-&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "מוצרים כשרים",
@@ -535,11 +566,13 @@
         ],
         "description": "מסעדה כשרה מוצרים כשרים ב-ברלין",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbk_e9WHFFshs2txVhaGiSGXPc5toYsbe9u8ABu6TONImj7-hy51GEN8-CVWvPtkkwldRk6qjqic3ObhIeIAQSolJxKWctNwdcQThbWM5Rllo8qZsgGvMHSlLOpFUSZls99zvev9WIic8Hh0SW8fDo6SBrYqiBYykFR3NDmOfms0CChx&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Rimmon Pizzería Kosher",
@@ -554,11 +587,13 @@
         ],
         "description": "מסעדה כשרה Rimmon Pizzería Kosher ב-מדריד",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbkHwLK8PXTdHxFJkslyqZ8Pivy9yVqEtJFQN5Hdb31oi9VHTSJRVPcoV81iLCyoVpaAqUdOYqTk9aOi3zhapHKckgSgzRPA_b6U54imN0_COzKe1hgRd6CvU741E96jOr0qbozBGQm22pT6Tk06gwzqOdANuLhaxaMfaxNr5fV2xMO0&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "מסעדה כשרה בשרי",
@@ -574,11 +609,13 @@
         ],
         "description": "מסעדה כשרה מסעדה כשרה בשרי ב-מדריד",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmBTfAd9VHbDPkAHPYdpq7e-GrP3se9ZuH5Ar_wEdQ-JzZi-3Fo7dXO2rTOX6-JQboYMbM8ERIz02sLIQMCeyaI3m_M2IQdmxOKpLrjV8igZHPqppEgWhVy3G2KmXCCE0iFtZzgvAAA4yismJ_d029ndAGaDPmJQbUgIxWTuT1ECbXU&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Kosher World Madrid VC",
@@ -593,11 +630,13 @@
         ],
         "description": "מסעדה כשרה Kosher World Madrid VC ב-מדריד",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnX-BA90co9bQ1PP4Gv1EX3eHF2A807HfBmdEsDk_cbN0O5usxjgF9UZk2hx8K1Ea3Qv0W3spxWbeyJo6IqM_mlhcg1zudelXBEv5JVTo7ZdNf5Lopzl0Zd9krVZkc61XGTG20t-Yh9SfHyAntFp_59b-esuEzpVmxhcLzuh-HXjxv8&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "EL 26 כשר",
@@ -612,11 +651,13 @@
         ],
         "description": "מסעדה כשרה EL 26 כשר ב-מדריד",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnaX7qz4zbMzkjibNmW73gPjNGIQBHFjKTHiJC746MY8FmpRbukmGVy9FtTRyGhEse7fHe9OMUFltoAMOucAkb-FcI40bSOPE5uwAQF0i5i7-6xze8i89zf9xFdXLET-PZaOMySDy1HS7Juyq86L6rA4TBdWW9iCkaR5jm5IYVfCW6a&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Gourmet Kosher Catering & Shop",
@@ -635,11 +676,13 @@
         ],
         "description": "מסעדה כשרה Gourmet Kosher Catering & Shop ב-מדריד",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbkKHqjLtpEBwsFimQr7hYJEPyd5wJeDhSHrrIYGWMcZnAgq_PuOx_NeA4SjkNRq8pdjeBO4qQNn99G8oG0CIB3o68Ho_lS-oJQUnay9zJLP-QEA98IhdW4-vhpODVsgG6cCzsisxYSVEd3GsbdO6I_s-jhhpRSWJC6tcwwjffcZphjA&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "SOLOMON KOSHER GRILL FUSION / מסעדה כשרה סולומון גריל ופיוז'ן",
@@ -655,11 +698,13 @@
         ],
         "description": "מסעדה כשרה SOLOMON KOSHER GRILL FUSION / מסעדה כשרה סולומון גריל ופיוז'ן ב-מדריד",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbk8svSoPIp-QPihkWhSbDDGx0ZnacOsKIYjQnDcSl9MsMz7WBocYE2YsP3vkuHRDlC__7N-JUh3XZWqjATUQ6OFr_T0LQ4p4978rKqAcpqGNRraSgbLKYscig84sOUbuR_DfiMRMmD3LFLkFWdg4jCOwxpvA3dae-pArR-VwsnoM3Gj&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "בלה קרנה מסעדה כשרה",
@@ -674,11 +719,13 @@
         ],
         "description": "מסעדה כשרה בלה קרנה מסעדה כשרה ב-רומא",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdblmq-SPuQ_uBWy_gyE7MJ4l2s0Q2_C5rrwr2HUGzDKEkVpoHXiXT30V23z4zlnnG7iPbqLGVDY-Hz-r9F0WDXV9gHJEgoCky1_TkACY3Q5J7YTEOJwJ6FfxQxxro4p89ERTmxEOxXfmtaK4zb6ecScL1JGXP6uBdYgdum1qOWJtPgxJ&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Renato al Ghetto - Hostaria Kosher",
@@ -693,11 +740,13 @@
         ],
         "description": "מסעדה כשרה Renato al Ghetto - Hostaria Kosher ב-רומא",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmooE1HQUmC2tYiPycFc0Oyyt7DXK265rXpsTRl1H5cy1c_4so5G7NDxlQpH_YXDqzRHoaqfBIZUuIrwwB0DMMlR3aqg47Y14jbtJDAdHBRagyV4zmmqNo3889UeMTDV31-yW51_jKXnS8PBnCuHdTkX64TaASn9QZ6p8wy7ZLsifbq&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Su Ghetto Kosher Restaurant",
@@ -712,11 +761,13 @@
         ],
         "description": "מסעדה כשרה Su Ghetto Kosher Restaurant ב-רומא",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbm_tjBiAoC9A6J5hKKex09-x7AjbO4jzCw19BxUrSnstSfLzZTnQkXvjdHtmx_RW0ypweqXFbIz-a097SczVIzu4VEniNTFe7R8-rJ8FyItVFyqD6RNPbT44TcioXaNGDbonKAiJjmWcApqvPPv7V43i3iZQanHgPCddIhKU0iSpCHH&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "BaGhetto Pastry Bistrot Kosher",
@@ -736,11 +787,13 @@
         ],
         "description": "מסעדה כשרה BaGhetto Pastry Bistrot Kosher ב-רומא",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnnQdyTGUfc-WMQ1ASkhiwJDlvShize13T4Fzb2ihGfLhGdMMfhDbZTV9u-Ipw1AI53Kk-AgDTVWdxTaIKaTM0ujVC6h645eWfruxb1grGeP5kWwMTf-uldQeUIROXdOYtPPdxOmkr4-l2exGB4fBk40AT64S1kzY4P8IiQXNfHrU6Y&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "מסעדת המבורגרים כשרה",
@@ -755,11 +808,13 @@
         ],
         "description": "מסעדה כשרה מסעדת המבורגרים כשרה ב-רומא",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbm3She-zuJVo8_N0C3B5USRvltB1hyAepD_koUg6IjaRZ07EMyaKTbFM-mtqhiiwzl348U3kGevPhxlWJH-1sSvDnbdEgSFErw-C7C5TABzIAOhmznw9mxiFqxlMoopOc6G8JYrOTxx2YaPAIjRBiyrW8fcalAFLyo4xPaSPdf4AD9J&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Shabbat Box kosher food",
@@ -774,11 +829,13 @@
         ],
         "description": "מסעדה כשרה Shabbat Box kosher food ב-רומא",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbl5WSFedQOeKUe1rTyJg4-rHq2Hbabnhj804MIBMZfiGLMoVVVGFw7Hx_UVNhN-idvRvjIlX5jwpewYJCFntrd1fqN9cQEGARGMdNRTeXxqwnJujWpaot-1iuUtCNrm6Z0CMMs_03bQDPt7d8BnpJhaf26cnTLoXuNjDlwZ3qbkFtup&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "C'è Pasta e Pizza - Kosher",
@@ -794,11 +851,13 @@
         ],
         "description": "מסעדה כשרה C'è Pasta e Pizza - Kosher ב-רומא",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmAsN2wsAThxU5vTzG81CZkzWmMK5m5sQPYfQCnAaHZC93YT97-2CS26YFtTaHZhXNM-pVFDttMNy45XsEwsKspErr9m40W_tJhHNyLF-fK3S2dJwSUtRmsS6NvlPb8snAZTgpo4bPsT_9aNDJp_uxIoqqak8NQ_GqEzvkeAIuNf_Ac&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Casalino Osteria Kosher",
@@ -813,11 +872,13 @@
         ],
         "description": "מסעדה כשרה Casalino Osteria Kosher ב-רומא",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnNbHFsDEHnZFou_e80yS9sEHdz0jg1vdkJCJjaluUg8ib46siTiw1POZncCUsQpvTDRHuhqnIBtHMbR3lW-ktdwa0ZedZOeLbM62Jn-AIJsqBSBOoZdbDSz3Lj1tVlp5yeYRJk05p7fL_oz3YsiT0LFEe_N3Ri5L0mh6-8aLDIz5S2&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "The Kosher Place",
@@ -833,11 +894,13 @@
         ],
         "description": "מסעדה כשרה The Kosher Place ב-דובאי",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbl0ZIyqKlXI1hfYG7cJI7zdfj2SIbcPFG0Ss4wxVkCUU-i8T6wiV6fjmJN6rNzaF-aQaUXgRwNeDglTtCxo7DXQ77eIZsE6EMP5_akYdhy1Pm1VEbN24_eTIcSNpxr92SJ96Udfa5rqxKJonFsjGhlfSGYp7FjxA2GbsTSxA7JKOiqw&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Mul Hayam - Kosher Israeli kitchen מול הים - מסעדה ישראלית כשרה",
@@ -852,11 +915,13 @@
         ],
         "description": "מסעדה כשרה Mul Hayam - Kosher Israeli kitchen מול הים - מסעדה ישראלית כשרה ב-דובאי",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmegD6AicwqD7HLRoKdjNRcPumA5cfQx4hufNhDcUZiU6GIuyADfL8T4lnCC23R68I2F38ouwFwLwfpqVIyH7lgC8tqrm5EpZjKinvTkQruX16V0eyJqVZ9tCG75OYLUuTFPQTPvONFIxdWomJJV7nbTQk2PUvC5g1baBdtnolR3zFZ&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "קפה אליס - כשר",
@@ -871,11 +936,13 @@
         ],
         "description": "מסעדה כשרה קפה אליס - כשר ב-דובאי",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmMk_jSUzriPLPviCJC3S0wZnl0s2l-PwGwYC9ki9npo5MVsqUqALc0PEPavEwVc1xnUKQjHX0C2J8Abh4WzOLTYgahWU7LUeNyKCiJuj7gK1DHH8cjR3wQu8lbqDIeohXEluM4Io4eATyQK3Kekop8Zd96a12cnD85doyK1tgM4Oyo&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "BAMIDBAR Kosher Restaurant & catering In Dubai | ''במדבר'' מסעדה ישראלית בשרים, דגים, וסושי כשרה, ארוחות שבת",
@@ -893,11 +960,13 @@
         ],
         "description": "מסעדה כשרה BAMIDBAR Kosher Restaurant & catering In Dubai | ''במדבר'' מסעדה ישראלית בשרים, דגים, וסושי כשרה, ארוחות שבת ב-דובאי",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnBKy--81Snbhvd3kaAH8Cj52laMO97IwO3ZJPlY3nFybcAYcrjXOMGrEktIQnKr_LBDdzk_dJ7PL81L6RjNxebddFioflZYsL6jfztUwgETbGudpRzcpKlXvl08wzMisLaEYX_XoDNP2reZZSQlfSA1To0606zAsZHtRzNfQg-qWoH&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Kosher Arabia",
@@ -913,11 +982,13 @@
         ],
         "description": "מסעדה כשרה Kosher Arabia ב-דובאי",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmRd3e5anfYd6Q-LZgT8QM5kNLGYNEt4w0T9ItQwqxaYsZrzEb6z1ihIfUyslqGH7GllCLlPh9InuH5yvocQf-hLwcWgcydBCULm4sQMrCcMtRXLQ09snKxSQFukUe2e4x555hkThNwVLjWWFD066xc5H7_lbx82a2URgfnlRplL0Cn&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Yafo Kosher",
@@ -932,11 +1003,13 @@
         ],
         "description": "מסעדה כשרה Yafo Kosher ב-בואנוס איירס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnwsw3PbbTg5b__xQSo4l8cSIJOORStmKGzbWHVeKPAkGDIUIs0KxBN2zbk_Sj2Hcv7Q_Y13KBcAuWwpxIb9CW9OMfza70VYUpFLdOVSgbh9x5dqGl6lQtrPv_axpjD3UgF-NUknzwyggCyKQU_2Hh08RZjaaT_vGCgG8fxf0m5NLAo&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Soultani Kosher Pizza Place",
@@ -954,11 +1027,13 @@
         ],
         "description": "מסעדה כשרה Soultani Kosher Pizza Place ב-בואנוס איירס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbkkaiCESjRuskFqlwqb0AQLjiyBlxzNwKx-nAeeSsd7-tt_Khm5wjACbXAVFRN8SZNneKEFpVyz4si9M8NzYFXQ_a5knxYHawMdX6bOhNV6bG4py8VLnC1W4XfuzkPauEeuDtA3JsTJYT9JfIQP_mSXJrCROdNzHYnNTWjp5DtPfiU8&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Tado's Kosher Foods",
@@ -973,11 +1048,13 @@
         ],
         "description": "מסעדה כשרה Tado's Kosher Foods ב-בואנוס איירס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbk9TE46sOX8Os2XcmSWYGwa_CH-rrI83mCvFBh2lEe4fnQB06mfCxLT1rMt9F8GTnjM3FPMckeuIukwrxQj3iJiCxn87m33ad4icylyj-8YHj7t6KkVtkHnljiQSNtVV3me3fivLxfbia9_3Vcad8qopqDtbOiWLa6NfMEXKcVBmRYP&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "AL KANFE NESHARIM-CASA DE COMIDAS KOSHER",
@@ -992,11 +1069,13 @@
         ],
         "description": "מסעדה כשרה AL KANFE NESHARIM-CASA DE COMIDAS KOSHER ב-בואנוס איירס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbm3jw8JqioOJXll4Z2kaqdFCbAgiU-fDUKRg04OESKJDFlW8edE9tg81JyyBzwJ2oZh-D5xaHHlho266s52oG7rgQysvAF5LuXLN8mhERs_5W89vLshPfMcuu5cVkvZf2VZzC_PTBa7DiHOykh5aMwJSpkqU_N-nmtfKBShF7Xd8zRA&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Pizzería Venecia Kosher",
@@ -1011,11 +1090,13 @@
         ],
         "description": "מסעדה כשרה Pizzería Venecia Kosher ב-בואנוס איירס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdblevcR_97t8cR0HbCqqZeT6wCkLJXXd5ZbSzCFejovYLOW7UsxYKRSxqvBx0I_Nh20Hcs8agrQJro2fDX_BnDCNOtjkmQmKzJ_VXS2maB6DyeGlaesuyacT5MaEoolAFFFHGATjY1n9BjKB0vRxf6xLqzOzqck6olRXHaHkhgPdqx6I&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Mc'Donals Kosher",
@@ -1030,11 +1111,13 @@
         ],
         "description": "מסעדה כשרה Mc'Donals Kosher ב-בואנוס איירס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdblYRxpbcWmx-EopJg04oukHZXLkeTPGhiNTcDK9M72QiSiA4DcIG1rJWHvt2o74PJQjyeYqlbkPvUHsPxiBVeJshSBrBLNvT6QDOyRtQ90rKGCnXFAxkubkYJ-kqSavjg-Qnv9XxTg1cKIkaaQyBE7jU-POm86G59WQIXZe-9CBYPql&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Mozart Kosher Once",
@@ -1050,11 +1133,13 @@
         ],
         "description": "מסעדה כשרה Mozart Kosher Once ב-בואנוס איירס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbmPv3hxgCSz30krJ4kbBVBS9J5IDCiaTjjwH8SHbDD10a_SDZv1ecGYIGAvPfQqEED91iGLNEx7tV25-Dmc93iFGvcym3nIGIgfbRTBrNni_-Ya9QKdfJ0d3OeGu7c9EK_loiAOeQWG89ycy54IBC7DD1fFEkFg5Hmi7TOcuMbtEnUM&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Glitter Restaurant Glatt Kosher",
@@ -1069,11 +1154,13 @@
         ],
         "description": "מסעדה כשרה Glitter Restaurant Glatt Kosher ב-בואנוס איירס",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbm8FQDDgr2J0lN4kFXcQa_cQBunQzMOPHkxppx8I1MfKMaoQvuJAzzDP8AVh58c-HeDsrWjn6gGn8HAZD3HQMjk-022YH9MdSHFXihK591W1v4Y9aho2_clcd0_Ec2n48fE4Ow08FNRmOniSkocnVvC9P6Mh3cH2pQpeROXU9XGmiZp&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Chana's Place Tokyo Kosher Restaurant",
@@ -1088,11 +1175,13 @@
         ],
         "description": "מסעדה כשרה Chana's Place Tokyo Kosher Restaurant ב-טוקיו",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdblfNROk4jeqczUU-0MrC7AIuFlvmhO9WsBC13j2Ko6XkJU2wasSfcHmUU5gMUlE8Wa1CAj0tlIwBPPjAYVMhJawmjoBCJau7-SPsPh4EZ8FvZeJl4JnLgkdSBDlerbwX9lpQdHizJV35YsEbrkhnAm0F4Chlawsbor5skxNyqtxDEuK&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     },
     {
         "name": "Kosher Delica",
@@ -1107,10 +1196,12 @@
         ],
         "description": "מסעדה כשרה Kosher Delica ב-טוקיו",
         "imageUrl": "https://maps.googleapis.com/maps/api/place/photo?maxwidth=400&photo_reference=AVzFdbnzQa_XHwTPebdmQmTMvKy7vzJeKwgXwl0yDG2ZlOBAk8QmNpds3UFsNEBZ5bHbuabWl8xJ2I9imL7ifaWAFdHlhLJLL4WOgMWDYEi2sdU6UU2q_WyWzUPZj8iDDTolsp2-omNLIpoOCkGZ6JyBAQtBqMPe-rNHLv9T6P4I6LPxnsnt&key=AIzaSyCNviOF0HkOXTS_pHTzsRWhYuNl6KOvEHc",
-        "isLiked": false,
         "openingHours": {
             "from": "09:00",
             "to": "23:00"
-        }
+        },
+        "user_id": "64a97b5e2b7f4f001f1c3a92",
+        "reservations": [],
+        "likes": []
     }
 ]
