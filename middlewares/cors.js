@@ -2,9 +2,9 @@ const cors = require("cors");
 
 const corsMiddleware = cors({
   origin: [
-    "https://restaurantprojectidanarbelisite.onrender.com",
+    "https://kshera.onrender.com",
     "http://localhost:5173",
-    "https://restaurant-server.onrender.com",
+    "https://kshera-server.onrender.com",
   ],
 });
 
