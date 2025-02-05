@@ -5,6 +5,7 @@ const corsMiddleware = cors({
     "https://kshera.onrender.com",
     "http://localhost:5173",
     "https://kshera-server.onrender.com",
+    "https://kshera.com"
   ],
 });
 
